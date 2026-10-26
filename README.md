@@ -25,8 +25,15 @@ Instead of just building a dashboard, I wanted to simulate what a modern data te
 ### Phase 2: Data Analytics (Power BI)
 **Why:** Business stakeholders need to understand the health of the catalog. I built a 4-page interactive dashboard.
 *   **Page 1 (Executive Summary):** KPI cards, Gender Split, and Top Product Types.
+*   <img width="1450" height="810" alt="image" src="https://github.com/user-attachments/assets/4f0a39e6-1bb3-4f5f-a205-9d16439a2f72" />
+
 *   **Page 2 & 3 (Pricing & Discounts):** Scatter plots and bar charts identifying which categories are being heavily discounted (e.g., Dresses at 70%).
+*   <img width="1447" height="810" alt="image" src="https://github.com/user-attachments/assets/dfc46012-7dbd-4485-8bc9-7028704932e6" />
+    <img width="1458" height="816" alt="image" src="https://github.com/user-attachments/assets/c44e5387-f5a6-4a69-92c8-1af7b5e8209e" />
+    
 *   **Page 4 (AI Predictions):** Visualizing the output of the Machine Learning model.
+*   <img width="1460" height="813" alt="image" src="https://github.com/user-attachments/assets/ec1c134c-5e1b-4227-94e4-5aeb40057c9b" />
+
 
 ### Phase 3: Data Science (The ML Model)
 **Why:** A dashboard tells you what happened yesterday. A machine learning model tells you what will happen tomorrow.
@@ -45,7 +52,7 @@ Instead of just building a dashboard, I wanted to simulate what a modern data te
 4.  **Predictive Scoring (`generate_predictions.py`):** I used the final Champion model to score the *entire* live inventory (filtering out items that are already out of stock) and exported the results to a CSV, which connects directly into Power BI Page 5.
 ![alt text](mlfow1.PNG)
 
-## 💡 Key Business Insights Discovered
+##  Key Business Insights Discovered
 1.  **Unisex Dominance:** 78% of the catalog is classified as "Unisex," heavily skewing towards T-Shirts and Shorts.
 2.  **Discount Strategy:** The brand is applying massive discounts (up to 70%) on low-ticket items like Dresses and Accessories, likely to clear old inventory.
 3.  **Predictive Risk:** The ML model successfully identified 2,782 specific SKUs (24% of live inventory) at high risk of selling out. The highest risk categories are T-Shirts and Leggings.
