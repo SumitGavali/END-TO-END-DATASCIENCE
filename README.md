@@ -104,7 +104,7 @@ The project reads only publicly available product data from a public endpoint. C
 ## Work with me
 
 I build competitor price/stock tracking and sales dashboards for Indian D2C brands and marketplace sellers.
-Contact: `[ADD EMAIL]` | LinkedIn: `[ADD LINK]` | GitHub: [@SumitGavali](https://github.com/SumitGavali)
+Contact: `sumitrg0007@gmail.com` | LinkedIn: `https://www.linkedin.com/in/sumit-gavali-99bbb7337/` | GitHub: [@SumitGavali](https://github.com/SumitGavali)
 
 ---
 
